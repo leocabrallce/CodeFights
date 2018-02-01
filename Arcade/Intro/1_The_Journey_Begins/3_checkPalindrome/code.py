@@ -1,2 +1,2 @@
 def checkPalindrome(inputString):
-    return True if inputString == str(inputString)[::-1] else False
+    return inputString == str(inputString)[::-1]
